@@ -1,15 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Replacing data with ref</h1>
+  <Data />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Data from './components/Data.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Data
   }
 }
 </script>
