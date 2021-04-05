@@ -1,27 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <h1>Reactivity and toRefs</h1>
-  <DemoTwo />
+    <h1>Replacing Methods</h1>
+    <Methods />
 </template>
 
 <script>
-import DemoTwo from './components/DemoTwo.vue'
+    import Methods from './components/Methods.vue'
 
-export default {
-  name: 'App',
-  components: {
-    DemoTwo,
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            Methods
+        }
+    }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>
