@@ -1,16 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <h1>Reactivity and toRefs</h1>
-  <DemoTwo />
+  <h1>Replacing data with ref</h1>
+  <Data />
 </template>
 
 <script>
-import DemoTwo from './components/DemoTwo.vue'
+import Data from './components/Data.vue'
 
 export default {
   name: 'App',
   components: {
-    DemoTwo,
+    Data
   }
 }
 </script>
