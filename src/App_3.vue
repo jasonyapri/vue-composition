@@ -1,15 +1,15 @@
 <template>
-    <h1>V-model and Composition API</h1>
-    <VModel />
+    <h1>Replacing Methods</h1>
+    <Methods />
 </template>
 
 <script>
-    import VModel from './components/VModel.vue'
+    import Methods from './components/Methods.vue'
 
     export default {
         name: 'App',
         components: {
-            VModel
+            Methods
         }
     }
 </script>
